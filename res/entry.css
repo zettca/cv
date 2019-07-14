@@ -1,6 +1,15 @@
+.entry {
+  margin-bottom: 2rem;
+}
+
+.entry:not(:last-child) {
+  border-bottom: 1px dashed silver;
+}
+
 .entry>div[name="Date"] {
-  font-size: smaller;
   float: right;
+  font-size: smaller;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .entry>div[name="Position"] {
