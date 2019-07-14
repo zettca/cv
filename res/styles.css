@@ -1,0 +1,86 @@
+body {
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: inherit;
+}
+
+h1, h2, h3 {
+  margin: 0;
+}
+
+header {
+  margin-top: 100px;
+}
+
+header>div:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.name {
+  font-size: xx-large;
+  font-weight: normal;
+}
+
+.row h2 {
+  font-size: x-large;
+  font-weight: normal;
+}
+
+.row h3 {
+  font-size: 1.2rem;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.row>div {}
+
+.row>div:nth-child(1) {
+  flex: 1;
+  text-align: right;
+  border-right: 1px solid silver;
+  max-width: 140px;
+  padding: 0 1rem;
+}
+
+.row>div:nth-child(2) {
+  flex: 2;
+  text-align: left;
+  max-width: 800px;
+  margin: 0 1rem;
+  border-bottom: 1px solid silver;
+}
+
+#avatar {
+  border-radius: 50%;
+  width: 128px;
+}
+
+.contacts {
+  margin: 1rem auto 0;
+  list-style-type: none;
+  text-align: center;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.contacts li {
+  height: 1.2rem;
+  padding: 2px 8px;
+  display: flex;
+  align-items: center;
+}
+
+.contacts li img {
+  height: inherit;
+  margin-right: 4px;
+}

@@ -1,0 +1,13 @@
+.entry>div[name="Date"] {
+  font-size: smaller;
+  float: right;
+}
+
+.entry>div[name="Position"] {
+  font-weight: bold;
+  font-size: large;
+}
+
+.entry>div[name="Organization"] {
+  font-size: smaller;
+}
