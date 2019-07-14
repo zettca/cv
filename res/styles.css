@@ -45,35 +45,36 @@ header>div:nth-child(2) {
   flex: 1;
   text-align: right;
   border-right: 1px solid silver;
-  max-width: 8rem;
+  max-width: 140px;
   padding: 0 1rem;
 }
 
 .row>div:nth-child(2) {
   flex: 2;
   text-align: left;
-  max-width: 40%;
+  max-width: 600px;
   margin-left: 1rem;
   border-bottom: 1px solid silver;
 }
 
 #avatar {
   border-radius: 50%;
-  width: 8rem;
+  width: 128px;
 }
 
 .contacts {
+  padding: 0;
   margin: 1rem auto 0;
   list-style-type: none;
   text-align: center;
-  font-size: 1rem;
+  font-size: small;
   display: flex;
   align-items: center;
 }
 
 .contacts li {
   height: 1.2rem;
-  padding: 0.1rem 1rem;
+  padding: 0 0.4rem;
   display: flex;
   align-items: center;
 }
