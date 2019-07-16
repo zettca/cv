@@ -1,0 +1,30 @@
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 2mm 0 8mm;
+}
+
+.row h2 {
+  font-size: 6mm;
+  font-weight: normal;
+}
+
+.row p:first-child {
+  margin-top: 0;
+}
+
+.row>div:nth-child(1) {
+  text-align: right;
+  border-right: 1px solid #BABABA;
+  width: 30mm;
+  padding-right: 4mm;
+}
+
+.row>div:nth-child(2) {
+  flex: 1;
+  text-align: left;
+  width: 180mm;
+  margin-left: 4mm;
+  border-bottom: 1px solid #DADADA;
+}
