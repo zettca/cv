@@ -8,16 +8,16 @@
 
 .entry>div[name="Date"] {
   float: right;
-  font-size: 3.2mm;
+  font-size: 0.8rem;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .entry>div[name="Position"] {
   font-weight: bold;
-  font-size: 5mm;
+  font-size: 1.1rem;
 }
 
 .entry>div[name="Organization"] {
-  font-size: 3.8mm;
+  font-size: 0.8rem;
   font-style: italic;
 }
