@@ -58,3 +58,62 @@ header>div:nth-child(2) {
   height: 4mm;
   margin-right: 1mm;
 }
+
+/* row */
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 2mm 0 8mm;
+}
+
+.row h2 {
+  font-size: 1.4rem;
+  font-weight: normal;
+}
+
+.row p:first-child {
+  margin-top: 0;
+}
+
+.row>div:nth-child(1) {
+  text-align: right;
+  border-right: 1px solid #BABABA;
+  width: 30mm;
+  padding-right: 4mm;
+}
+
+.row>div:nth-child(2) {
+  flex: 1;
+  text-align: left;
+  width: 180mm;
+  margin-left: 4mm;
+  border-bottom: 1px solid #DADADA;
+}
+
+/* entry */
+
+.entry {
+  margin-bottom: 6mm;
+}
+
+.entry:not(:last-child) {
+  border-bottom: 1px dashed #DADADA;
+}
+
+.entry>div[name="Date"] {
+  float: right;
+  font-size: 0.8rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.entry>div[name="Position"] {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.entry>div[name="Organization"] {
+  font-size: 0.8rem;
+  font-style: italic;
+}
